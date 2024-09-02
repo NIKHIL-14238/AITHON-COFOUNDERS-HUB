@@ -1,0 +1,217 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.watchlist, .stock-details {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+.search-section {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    position: relative;
+}
+
+li:hover {
+    background-color: #f0f2f5;
+}
+
+li button {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+li:hover button {
+    display: inline-block;
+}
+
+#stock-info {
+    font-size: 1.2em;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#stock-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#stock-table th, #stock-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#stock-table tr:hover{
+    background-color: #f0f2f5;
+}
+
+#stock-table th {
+    background-color: #f4f4f4;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.add {
+    background-color: green;
+    color: white;
+}
+
+button.remove {
+    background-color: red;
+    color: white;
+}ding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    position: relative;
+}
+
+li:hover {
+    background-color: #f0f2f5;
+}
+
+li button {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+li:hover button {
+    display: inline-block;
+}
+
+#stock-info {
+    font-size: 1.2em;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#stock-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#stock-table th, #stock-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#stock-table tr:hover{
+    background-color: #f0f2f5;
+}
+
+#stock-table th {
+    background-color: #f4f4f4;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.add {
+    background-color: green;
+    color: white;
+}
+
+button.remove {
+    background-color: red;
+    color: white;
+}

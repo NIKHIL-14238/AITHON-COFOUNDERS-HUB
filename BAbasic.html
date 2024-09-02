@@ -1,0 +1,52 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Dashboard</title>
+    <link rel="stylesheet" href="yo.css">
+    <link rel="stylesheet" href="lo.js">
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>Stock Market Dashboard</h1>
+        </header>
+        <main>
+            <div class="watchlist">
+                <h2>Watchlist</h2>
+                <ul id="watchlist">
+                    <!-- Watchlist items will be dynamically added here -->
+                </ul>
+            </div>
+            <div class="stock-details">
+                <h2>Stock Details</h2>
+                <div id="stock-info">
+                    <!-- Stock details will be displayed here -->
+                </div>
+            </div>
+        </main>
+        <section class="search-section">
+            <input type="text" id="search" 
+                   placeholder="Search for stocks...">
+            <table id="stock-table">
+                <thead>
+                    <tr>
+                        <th>Stock Name</th>
+                        <th>Price</th>
+                        <th>Change</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Stock list will be dynamically added here -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
